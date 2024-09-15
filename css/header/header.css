@@ -113,6 +113,7 @@ h1{
 
 @media screen and (min-width:770px) and (max-width:1440px){
     .header{
+        height: auto;
         padding: 100px 50px 0 50px;
     }
     .con_img{
@@ -135,4 +136,9 @@ h1{
         left: 0;
     }
     
+}
+@media (max-width:400) and (max-height:800px) {
+    .header{
+        height: auto;
+    }
 }
