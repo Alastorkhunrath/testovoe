@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: 'Prata';
+    src: url(font/Prata/Prata-Regular.woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Prata-italy';
+    src: url(font/Prata/Prata-Regular.woff);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aria';
+    src: url(font/Aria/Arial-BoldMT.woff);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Aria-itali';
+    src: url(font/Aria/ArialNarrow-BoldItalic.woff);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aria-itali';
+    src: url(font/Aria/Arial-ItalicMT.woff);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aria';
+    src: url(font/Aria/ArialMT.woff);
+    font-weight: 300;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: 'Prata-italy'; */
+    font-family: 'Aria';
+}
+
+
+
+html{
+    font-size: 24px;
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 3.3rem;
+}
+
+h2{
+    font-size: 2.25rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p,a{
+    font-size: 1rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width:1440px){
+   nav, .header, .reviews, .form-section, .footer{
+    padding:0 50px;
+   }
+}

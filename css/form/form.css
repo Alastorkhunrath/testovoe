@@ -1,0 +1,99 @@
+.form-section{
+    width: 100%;
+    padding: 100px 0;
+    background: var(--submit-color);
+}
+
+.form-section__container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background: var(--text_color);
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+
+.form{
+    width: 100%;
+    height: 100%;
+    
+    padding: 70px 135px;
+    
+}
+
+.form__content{
+    width: 100%;
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form__title{
+    font-family: 'Prata';
+    color: var(--text_color_3);
+    font-weight: 400;
+}
+.form__input::placeholder{
+    font-size: 1rem; 
+    line-height: 15px;
+}
+.form__input{
+    padding: 14px 38px;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    outline: none;
+    margin: 6.5px 0;
+}
+
+.form__checkbox-input{
+    font-size: 19px;
+    color: var(--secondary-color);
+    margin: 19.5px 0 26px 0;
+}
+
+.form__btn{
+    padding: 30px 0;
+    font-size: 1.2rem;
+    border: none;
+    background: var(--submit-color);
+    color: var(--text_color);
+    transition: 0.3s;
+}
+
+.form-section__image{
+    background: url(../img/Leonardo_Kino_XL_moder_house_house_0.jpg) center/cover no-repeat;
+    width: calc((100% - 780px) - (135px + 80px));
+    height: 100%;
+    top: 0;
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+}
+
+
+.form-section__image img{
+    width: 100%;
+}
+
+.form__btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media (max-width:768px){
+    .form-section{
+        padding: 100px 20px;
+    }
+    .form{
+        padding: 20px;
+    }
+    .form__title{
+        font-size: 2rem;
+        
+    }
+}

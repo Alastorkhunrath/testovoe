@@ -1,0 +1,138 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: var(--bg-color);
+    overflow: hidden;
+}
+
+.con_left{
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+
+.con_img{
+    position: absolute;   
+    top: 0;
+    right: 0;
+    z-index: 20;
+    width: calc(100% - (100% - 760px));
+}
+
+.con_left_content{
+    width: 100%;
+
+}
+
+h1{
+    font-family: 'Prata';
+    color: var(--text_color);
+    font-weight: 400;
+}
+
+.content_list_item{
+    list-style-type: none;
+    font-size: 1rem;
+    margin: 15px 0;
+    color: var(--text_color);
+    background: var(--bg-color_2);
+    width: fit-content;
+    padding-right: 10px;
+    /* vertical-align: middle; */
+}
+
+.con_left_content_subtitle{
+    margin: 10px 0 30px 0;
+    color: var(--text_color);
+    font-family: 'Aria';
+    font-weight: 400;
+}
+
+.content_list_item_big-text{
+    
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.header__btn__order{
+    display: inline-block;
+    font-family: 'Aria';
+    font-weight: 800;
+    background: var(--bg-color_1);
+    border-radius: 5px;
+    padding: 39px 50px;
+    color: var(--text_color_2);
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+
+
+.btn_hover_animation:hover{
+    transform: scale(1.2);
+}
+
+.header{
+    padding: 80px 20px 0 20px;
+    margin-top: 80px;
+}
+
+@media (max-width:768px){
+
+.con_img{
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.con_left_content{
+    position: static;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.con_left_content_subtitle{
+    text-align: center;
+}
+.header_tittle{
+    font-size: 2rem;
+}
+
+.content_list{
+    width: 100%;
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width:770px) and (max-width:1440px){
+    .header{
+        padding: 100px 50px 0 50px;
+    }
+    .con_img{
+        z-index: 0;
+        opacity: 0.5;
+    }
+    .con_left_content{
+        position: static;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+   .con_img{
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+        left: 0;
+    }
+    
+}

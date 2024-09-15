@@ -1,0 +1,16 @@
+:root{
+
+    --bg-color:rgba(34, 34, 34, 1);
+    --bg-color_1:rgb(255, 255, 255);
+    --bg-color_2:rgba(40, 40, 41, 0.7);
+    --submit-color:rgba(40, 40, 41, 1);
+
+    --text_color:rgba(255, 255, 255, 1);
+    --text_color_2:rgba(34, 34, 34, 1);
+    --text_color_3:rgba(56, 83, 93, 1);
+
+
+    --border-color:rgba(214, 214, 214, 1);
+    --secondary-color:rgba(85, 86, 90, 1);
+   
+}

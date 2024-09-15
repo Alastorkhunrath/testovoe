@@ -1,0 +1,117 @@
+.reviews{
+    width: 100%;
+    background: var(--submit-color);
+    padding: 100px 0;
+}
+
+.con_reviews_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.reviews_content{
+    width: 30%;
+    max-height: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+
+
+.reviews_con{
+    overflow:hidden;
+    transition: 0.3s;
+}
+
+.con_reviews_content_img_left{
+    background: url(../img/Leonardo_Kino_XL_moder_house_house_1.jpg) center/cover no-repeat;
+    width: 32%;
+    height: 930px;
+    max-height: 1240px;
+}
+.con_reviews_content_img_left img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.con_reviews_content_img_right{
+    background: url(../img/Leonardo_Kino_XL_moder_house_house_1.jpg) center/cover no-repeat;
+    width: 32%;
+    height: 930px;
+ 
+}
+.con_reviews_content_img_right img{
+    width: 100%;
+    height: 930px;
+    max-height: 930px;
+    object-fit:contain;
+    
+}
+.reviews_content_btn_order{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 32px 0;
+    color: var(--text_color_2);
+    font-family: 'Aria';
+    font-weight: 800;
+    background: var(--bg-color_1);
+    transition: 0.3s;
+}
+
+.con_reviews{
+    padding: 40px 0;
+    border-bottom: 1px solid white;
+    color: var(--text_color);
+    font-weight: 300;
+}
+
+.con_reviews:nth-last-of-type(1){
+   border-bottom: none;
+}
+
+.btn_hover_animation:hover{
+    transform: scale(1.1);
+}
+
+
+.reviews_con:hover{
+    overflow-y: auto;
+}
+
+
+
+
+@media (max-width:768px){
+    .reviews{
+        padding: 100px 20px 0 20px;
+    }
+    .con_reviews_content{
+        flex-direction: column;
+    }
+    .reviews_content, .con_reviews_content_img_left, .con_reviews_content_img_right{
+        width: 100%;
+    }
+    .reviews_content{
+        padding: 55px 0;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1440px){
+    .con_reviews_content{
+        align-items: flex-start;
+    }
+    .reviews_content{
+        padding-top: 0;
+        
+    }
+    .con_reviews_content{
+        align-items: flex-start;
+    }
+    .reviews_con{
+       
+        padding-bottom: 50px;
+    }
+}
