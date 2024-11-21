@@ -3,175 +3,893 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <nav class="nav">
-            <div class="nav__content">
-                <div class="nav__content_margin">
-                    <input type="checkbox" name="" id="" class="nav_checkbox">
-                    <div class="middle_line"></div>
-                    <div class="nav__content__logo">
-                        <a href="#" class="nav-logo">LOREM</a>
+    <nav class="menu">
+        <div class="menu_bg_color">
+            <!-- <input type="checkbox"> -->
+            <div class="menu_top">
+                <a href="" class="menu_top_link-city white_color">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill red_color" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                    </svg>Москва</a>
+
+                    <div>
+                        <a href="" class="menu_top-num white_color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill red_color" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                            </svg>+7 (499) 955-57-18</a>
+
+                        <a href="" class="menu_top_order">ЗАКАЗАТЬ ЗВОНОК</a>
                     </div>
-                    <div class="nav__content__novigation">
-                        <a href="#header" class="nav__content__novigation__btn hover__animation" id="">Main</a>
-                        <a href="#reviews" class="nav__content__novigation__btn hover__animation" id="">Reviews</a>
-                        <a href="#footer" class="nav__content__novigation__btn hover__animation" id="">About Us</a>
-                    </div>
+            </div>
+        </div>
+        <div class="main_menu_bg_color">
+            <div class="main_menu">
+                <div class="main_menu_con_logo">
+                    <a href="#" class="main_menu_logo"><span class="letter_red">RE</span>vo <span class="letter_red">M</span>arketing</a>
+                </div>
+                <div class="main_menu_navigations">
+                    <a href="#" class="main_menu_navigation">Услуги и цены</a>
+                    <a href="#" class="main_menu_navigation">Отрасли</a>
+                    <a href="#" class="main_menu_navigation">Акции</a>
+                    <a href="#" class="main_menu_navigation">Кейсы</a>
+                    <a href="#" class="main_menu_navigation">Клиенты и отзывы</a>
+                    <a href="#" class="main_menu_navigation">О компании</a>
+                    <a href="#" class="main_menu_navigation">Контакты</a>
                 </div>
             </div>
-            
-        
+        </div>
     </nav>
 
-    <header class="header" id="header">
-        <div class="con_left">
-            <div class="con_left_content">
-                <h1 class="header_tittle">Lorem ipsum <br>
-                    dolor sit amet</h1>
-                    <div class="con_left_content_subtitle">
-                        <h3>online real estate agency</h3>
-                    </div>
-                <div class="con_left_content_list">
-                    <ul class="content_list">
-                        <li class="content_list_item"><span class="content_list_item_big-text">15</span> years on the market</li>
-                        <li class="content_list_item"><span class="content_list_item_big-text">100</span> million is the maximum transaction amount</li>
-                        <li class="content_list_item"><span class="content_list_item_big-text">1 500</span> successful deals</li>
-                    </ul>
+<main>
+    <header class="header">
+        <div class="container">
+            <div class="container_text">
+                <div class="con_title_1">
+                <h1 class="header_title_1"><span class="letter_red">RE</span>vo <span class="letter_red">M</span>arketing — digital-агентство
+                    <br>
+                    для малого и среднего бизнеса</h1>
                 </div>
-                <div class="header__btn">
-                    <a href="#order" class="header__btn__order btn_hover_animation">ORDER</a>
-                </div>
-            </div>
-            
-        </div>
-        <div class="con_img">
-            <picture>
-                <source media="(max-width:1440px)" srcset="css/img/Leonardo_Kino_XL_moder_house_house_0.png">
-                <img src="css/img/Leonardo_Kino_XL_moder_house_house_0.jpg" alt="" class="con_img-bg">
-            </picture>
-            
-        </div>
-    </header>
-    <main>
-        <section class="reviews" id="reviews">
-            <div class="con_reviews_content">
-                <div class="con_reviews_content_img_left">   
-                    
-                </div>
-            
-                <div class="reviews_content">
-                    <div class="reviews_con">
-                        <div class="con_reviews">
-                            <p>Many thanks to the agency For the great work they 
-                                have done in buying out the last room in a communal 
-                                apartment</p>
-                        </div>
-                        <div class="con_reviews">
-                            <p>I would like to express my deep gratitude to the "Lorem" 
-                                agency for the assistance provided to me in the privatization 
-                                of the apartment</p>
-                        </div>
-                        <div class="con_reviews">
-                            <p>We have been familiar with "Lorem" for more than 4 years. 
-                                We rented an apartment twice, consulted on the purchase of
-                                 real estate a couple of times. We have always received high-quality 
-                                 help. Thank you very much. If you want to move or buy only with you！</p>
-                        </div>
-                        <div class="con_reviews">
-                            <p>I would like to express my gratitude to the company "Lorem" 
-                                for the help provided to us in buying an apartment!!! Now 
-                                if we decide to expand, then only to you!!!</p>
-                        </div>
-                        <div class="con_reviews">
-                            <p>I would like to express my gratitude to the company "Lorem" 
-                                for the help provided to us in buying an apartment!!! Now 
-                                if we decide to expand, then only to you!!!</p>
-                        </div>
-                        <div class="con_reviews">
-                            <p>I would like to express my gratitude to the company "Lorem" 
-                                for the help provided to us in buying an apartment!!! Now 
-                                if we decide to expand, then only to you!!!</p>
-                        </div>
-                    </div>
-                    
-                    <div class="reviews_content_btn">
-                        <a href="#order" class="reviews_content_btn_order btn_hover_animation">ORDER</a>
-                    </div>
-                </div>
-                    
-                    <div class="con_reviews_content_img_right"> </div>
+                <div class="con_text_2">
+                    <p class="header_text_2">23 года увеличиваем доход наших клиентов за счёт<br>
+                        комплексного интернет-маркетинга. Увеличим и ваш</p>
                 </div>
                 
-             
-            </div>
-        </section>
-
-        <section class="form-section" id="order">
-            <div class="form-section__container">
-                <form action="" class="form">
-                    <div class="form__content">
-                    <h2 class="form__title">Consectetur <br>
-                        sed do eiusmod </h2>
-                    <input type="text" class="form__input" placeholder="Name">
-                    <input type="text" class="form__input" placeholder="E-mail">
-                    
-                    <label for="form__checkbox" class="form__checkbox-input">
-                        <input type="checkbox" class="form__checkbox">
-                        I accept Privacy policy</label>
-                    <button class="form__btn" type="submit">SUBMIT FORM</button>
+                <div class="booleets">
+                    <div class="bool_1 bool_flex">
+                        <div class="bool_con_circle">
+                            <img src="css/header/img/Stars_header.svg" alt="" class="svg_star">
+                        </div>
+                        <p class="bool_text">Краткое<br>
+                            <span class="bool_text_bold">описание</span></p>
                     </div>
-                </form>
-                <div class="form-section__image">
-                    
-                        
-                      
-                    
-                    
+                    <div class="bool_2 bool_flex">
+                        <div class="bool_con_circle">
+                            <img src="css/header/img/Stars_header.svg" alt="" class="svg_star">
+                        </div>
+                        <p class="bool_text">Краткое<br>
+                            <span class="bool_text_bold">описание</span></p>
+                    </div>
+                    <div class="bool_3 bool_flex">
+                        <div class="bool_con_circle">
+                            <img src="css/header/img/Stars_header.svg" alt="" class="svg_star">
+                        </div>
+                        <p class="bool_text">Краткое<br>
+                            <span class="bool_text_bold">описание</span></p>
+                    </div>
                 </div>
-            </div>
-            
-        </section>
-
-    </main>
-    <footer class="footer" id="footer">
-        <div class="footer__container">
-            <div class="footer__navigation">
-                <a href="" class="footer__link">Main</a>
-                <a href="" class="footer__link">Reviews</a>
-                <a href="" class="footer__link">About Us</a>
-            </div>
-            <div class="footer__order-section">
-                <a href="" class="footer__lorem">LOREM</a>
-                <div class="footer__icons">
-                    <a href="" class="footer__icon-link">
-                        <img src="css/img/icon/Component icons (1).svg" alt="">
-                    </a>
-                    <a href="" class="footer__icon-link">
-                        <img src="css/img/icon/Component icons (2).svg" alt="">
-                    </a>
-                    <a href="" class="footer__icon-link">
-                        <img src="css/img/icon/Component icons (3).svg" alt="">
-                    </a>
-                    <a href="" class="footer__icon-link">
-                        <img src="css/img/icon/Component icons (4).svg" alt="">
-                    </a>
-                    <a href="" class="footer__icon-link">
-                        <img src="css/img/icon/Component icons.svg" alt="">
-                    </a>
+                
+                
+                <div class="header_btn_s">
+                    <button class="order_services_btn">заказать услугу</button>
+                    <button class="get_an_offer_btn">получит предложение</button>
                 </div>
-                <button class="footer__btn ">ORDER</button>
-            </div>
-            <div class="footer__legal">
-                <p class="footer__copyright">© 2024, Copyright.</p>
-                <p class="footer__privacy-policy">Privacy policy</p>
-                <p class="footer__terms-of-use">Terms of Use</p>
             </div>
         </div>
-    </footer>
-    <script src="script.js"></script>
+        <div class="header_bg">
+            <img src="img/bg_header.png" alt="" class="bg_img">
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="container_service_title">Услуги</h2>
+            <div class="services_content">
+                
+                <div class="service_card card_1">
+                    <h3 class="service_title">SEO-продвижение сайтов</h3>
+                    <p class="service_text">Увеличим ваши продажи, количество звонков и заявок <br>
+                        за счет оптимизации сайта. Поднимем в топ и увеличим трафик</p>
+                    <div class="service_con">
+                        <img src="css/services/img/Stars_header.svg" alt="" class="service_con_star">
+                        <h3 class="service_con_price">от 45 171 руб</h3>
+                    </div>
+                </div>
+                <div class="service_card card_2">
+                    <h3 class="service_title">SERM</h3>
+                    <p class="service_text">Удалим негатив, разместим <br>
+                        положительные отзывы, увеличим <br>
+                        продажи и доверие клиентов</p>
+                    <div class="service_con">
+                        <img src="css/services/img/Stars_header.svg" alt="" class="service_con_star">
+                        <h3 class="service_con_price">от 41 900 руб</h3>
+                    </div>
+                </div>
+                <div class="service_card card_3">
+                    <h3 class="service_title">Продвижение <br>
+                        в соц.сетях</h3>
+                    <p class="service_text">Увеличим ваши продажи за счет <br>
+                        интерактивного взаимодействия <br>
+                        с клиентами в социальных сетях</p>
+                    <div class="service_con">
+                        <img src="css/services/img/Stars_header.svg" alt="" class="service_con_star">
+                        <h3 class="service_con_price">от 140 000 руб</h3>
+                    </div>
+                </div>
+                <div class="service_card card_4">
+                    <h3 class="service_title">Контекстная реклама</h3>
+
+                    <p class="service_text">Повысим ваши продажи, увеличим охват аудитории, количество <br>
+                        звонков и заявок за счет привлечения только целевого трафика</p>
+                    <div class="service_con">
+                        <img src="css/services/img/Stars_header.svg" alt="" class="service_con_star">
+                        <h3 class="service_con_price">от 150 000 руб</h3>
+                    </div>
+                </div>
+                <div class="service_card card_5">
+                    <h3 class="service_title">ORM</h3>
+                    <p class="service_text">Сформируем и защитим положительный <br>
+                        имидж вашей компании</p>
+                    <div class="service_con">
+                        <img src="css/services/img/Stars_header.svg" alt="" class="service_con_star">
+                        <h3 class="service_con_price">от 150 000 руб</h3>
+                    </div>
+                </div>
+                <div class="service_card card_6">
+                    <h3 class="service_title">Маркетолог <br>
+                        на аутсорсе</h3>
+                    <p class="service_text">Увеличим продажи, кол-во звонков <br>
+                        заявок с сайта путем экспертного <br>
+                        анализа вашего бизнеса и внедрения <br>
+                        передовых маркентиговых решений</p>
+                    <div class="service_con">
+                        <img src="css/services/img/Stars_header.svg" alt="" class="service_con_star">
+                        <h3 class="service_con_price">от 65 000 руб</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="cervices_btn">СМОТРЕТЬ ВСЕ УСЛУГИ</button>
+        </div>
+    </section>
+
+    <section class="proposal">
+        <div class="container">
+            <form action="#" class="form">
+                <div class="form_con">
+                    <div class="form_con_title">
+                        <h2 class="form_title">
+                            Узнайте стоимость<br>
+                            продвижения <span class="red_color">сейчас</span></h2>
+                    </div>
+                    <div class="form_text_icon">
+                        <p class="form_text">Выберите удобный способ связи:</p>
+                        <a href="" class="form_icon"><img src="css/proposal/img/phone.svg" alt=""></a>
+                        <a href="" class="form_icon"><img src="css/proposal/img/Email.svg" alt=""></a>
+                        <a href="" class="form_icon"><img src="css/proposal/img/Telegram.svg" alt=""></a>
+                        <a href="" class="form_icon"><img src="css/proposal/img/WhatsApp.svg" alt=""></a>
+                    </div>
+                    <div class="form_inputes">
+                        <input type="text" class="form_input" placeholder="Введите ваше имя">
+                        <input type="text" class="form_input" placeholder="+7 (___) ___-__-__">
+                        <input type="email" class="form_input" placeholder="Введите ваш адрес">
+                    </div>
+                    <div class="form_btn">
+                        <button class="input_propsal">ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</button>
+                        <div class="condiditional_con">
+                            <a href="" class="condiditional">Нажимая кнопку «Получить предложение»<br>
+                                вы соглашаетесь <span class="red_condiditional">с Политикой конфиденциальности</span></a>
+                        </div>    
+                        </div>
+                </div>
+                <div class="form_bg">
+                    <img src="css/proposal/img/Group 5.svg" alt="" class="form_bg_img">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="answer">
+        <div class="container">
+            <div class="answer_con_title">
+                <h2 class="answer_title">Ответы на популярные вопросы</h2>
+            </div>
+            <div class="answer_content">
+                <section class="answer_section_content">
+                    <details class="answer_desc">
+                        <summary >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                            </svg>
+                            <p class="answer_text_title">В какие сроки мой сайт будет выведен в ТОП-10?</p>
+                        </summary>
+                        <p class="desc_text">Высокий уровень вовлечения представителей целевой аудитории является четким <br>
+                            доказательством простого факта: новая модель организационной деятельности играет <br>
+                            определяющее значение для первоочередных требований. Есть над чем задуматься: <br>
+                            независимые государства и по сей день остаются уделом либералов, которые жаждут быть <br> 
+                            обнародованы</p></details>
+                </section>
+                <section class="answer_section_content">             
+                    <details class="answer_desc">
+                        <summary>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                            </svg>
+                            <p class="answer_text_title">Мне нужен ТОП только по ВЧ (высокочастотным) запросам!</p>
+                        </summary>
+                        <p class="desc_text">Высокий уровень вовлечения представителей целевой аудитории является четким <br>
+                            доказательством простого факта: новая модель организационной деятельности играет <br>
+                            определяющее значение для первоочередных требований. Есть над чем задуматься: <br>
+                            независимые государства и по сей день остаются уделом либералов, которые жаждут быть <br> 
+                            обнародованы</p></details>
+                </section>
+                <section class="answer_section_content">                   
+                    <details class="answer_desc">
+                        <summary>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                            </svg>
+                            <p class="answer_text_title">Если я не хочу! не могу предоставить доступы от сайта, сотрудничество возможно?</p>
+                        </summary>
+                        <p class="desc_text">Высокий уровень вовлечения представителей целевой аудитории является четким <br>
+                            доказательством простого факта: новая модель организационной деятельности играет <br>
+                            определяющее значение для первоочередных требований. Есть над чем задуматься: <br>
+                            независимые государства и по сей день остаются уделом либералов, которые жаждут быть <br> 
+                            обнародованы</p></details>
+                </section>
+                <section class="answer_section_content">                  
+                    <details class="answer_desc">
+                        <summary>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                            </svg>
+                            <p class="answer_text_title">Я боюсь потерять результаты, которые были достигнуты с предыдущим подрядчиком. <br>
+                                Как я могу подстраховаться?</p>
+                        </summary>
+                        <p class="desc_text">Высокий уровень вовлечения представителей целевой аудитории является четким <br>
+                            доказательством простого факта: новая модель организационной деятельности играет <br>
+                            определяющее значение для первоочередных требований. Есть над чем задуматься: <br>
+                            независимые государства и по сей день остаются уделом либералов, которые жаждут быть <br> 
+                            обнародованы</p></details>
+                </section>
+                <section class="answer_section_content">
+                    <details class="answer_desc">
+                        <summary class="answer_icon_none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                            </svg>
+                           <p class="answer_text_title">Я не вижу на сайте kokos.com кейсов по моей тематике. Вы точно сможете меня <br>продвинуть?</p>
+                        </summary>
+                        <p class="desc_text">Высокий уровень вовлечения представителей целевой аудитории является четким <br>
+                            доказательством простого факта: новая модель организационной деятельности играет <br>
+                            определяющее значение для первоочередных требований. Есть над чем задуматься: <br>
+                            независимые государства и по сей день остаются уделом либералов, которые жаждут быть <br> 
+                            обнародованы</p></details>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="examples_works">
+        <div class="container">
+            <div class="examples_works_con_title">
+                <h2 class="examples_works_title">
+                    <span class="red_color">Результаты наших работ</span>
+                        <br>
+                    по продвижению сайтов
+                </h2>
+            </div>
+            <div class="examples_works_cards">
+                <div class="exemples_cards">
+                    <div class="exempple_work_card">
+                        <div class="exempple_work_card_header"></div>
+                        <div class="exempple_work_card_body">
+                            <h3>Как через канал SEO 1<br>
+                                получить клиента <br>
+                                на миллион</h3>
+                            <p>Огранический небрендовый трафик<br>
+                                вырос в 2,6 раз. Конверсия на сайте<br>
+                                выросла в 2,5-3 раза.</p>
+                            <button class="exempple_work_card_body_btn">СМОТРЕТЬ КЕЙС</button>
+                        </div>
+                    </div>
+                    <div class="exempple_work_card">
+                        <div class="exempple_work_card_header"></div>
+                        <div class="exempple_work_card_body">
+                            <h3>Как через канал SEO 2<br>
+                                получить клиента <br>
+                                на миллион</h3>
+                            <p>Огранический небрендовый трафик<br>
+                                вырос в 2,6 раз. Конверсия на сайте<br>
+                                выросла в 2,5-3 раза.</p>
+                            <button class="exempple_work_card_body_btn">СМОТРЕТЬ КЕЙС</button>
+                        </div>
+                    </div>
+                    <div class="exempple_work_card">
+                        <div class="exempple_work_card_header"></div>
+                        <div class="exempple_work_card_body">
+                            <h3>Как через канал SEO 3<br>
+                                получить клиента <br>
+                                на миллион</h3>
+                            <p>Огранический небрендовый трафик<br>
+                                вырос в 2,6 раз. Конверсия на сайте<br>
+                                выросла в 2,5-3 раза.</p>
+                            <button class="exempple_work_card_body_btn">СМОТРЕТЬ КЕЙС</button>
+                        </div>
+                    </div>
+                    <div class="exempple_work_card">
+                        <div class="exempple_work_card_header"></div>
+                        <div class="exempple_work_card_body">
+                            <h3>Как через канал SEO 4<br>
+                                получить клиента <br>
+                                на миллион</h3>
+                            <p>Огранический небрендовый трафик<br>
+                                вырос в 2,6 раз. Конверсия на сайте<br>
+                                выросла в 2,5-3 раза.</p>
+                            <button class="exempple_work_card_body_btn">СМОТРЕТЬ КЕЙС</button>
+                        </div>
+                    </div>
+                    <div class="exempple_work_card">
+                        <div class="exempple_work_card_header"></div>
+                        <div class="exempple_work_card_body">
+                            <h3>Как через канал SEO 5<br>
+                                получить клиента <br>
+                                на миллион</h3>
+                            <p>Огранический небрендовый трафик<br>
+                                вырос в 2,6 раз. Конверсия на сайте<br>
+                                выросла в 2,5-3 раза.</p>
+                            <button class="exempple_work_card_body_btn">СМОТРЕТЬ КЕЙС</button>
+                        </div>
+                    </div>
+                    <div class="exempple_work_card">
+                        <div class="exempple_work_card_header"></div>
+                        <div class="exempple_work_card_body">
+                            <h3>Как через канал SEO 6<br>
+                                получить клиента <br>
+                                на миллион</h3>
+                            <p>Огранический небрендовый трафик<br>
+                                вырос в 2,6 раз. Конверсия на сайте<br>
+                                выросла в 2,5-3 раза.</p>
+                            <button class="exempple_work_card_body_btn">СМОТРЕТЬ КЕЙС</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a class="arrow_left controls">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                </svg>
+            </a>
+            <a class="arrow_right controls">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg>
+            </a>
+            
+        </div>
+    </section>
+
+    <section class="take_a_seat">
+        <div class="company_icons">
+            <div class="container_icon">
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Google.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Group 54.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Yandex.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/youtube 52.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Google.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Group 54.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Yandex.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/youtube 52.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Google.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Group 54.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Yandex.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Google.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Group 54.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Yandex.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/youtube 52.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Google.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Group 54.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Yandex.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/youtube 52.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Google.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Group 54.svg" alt=""></a>
+                </div>
+                <div class="icon">
+                    <a href=""><img src="css/take_a_seat/img/Yandex.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container_bg">
+                <button class="container_bg_btn">Занять место</button>
+                <img src="css/take_a_seat/img/Rectangle.svg" alt="" class="chair">
+                <div class="red_oval"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews_title">
+                <h2>Отзывы</h2>
+            </div>
+            <div class="reviews_swipe">
+                <div class="reviews_swiper">
+                    <div class="reviews_swiper_card">
+                        <div class="card_stars">
+                            <a href="" class="link_stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="reviews_swiper_card_text">Спасибо за проделанную<br>
+                            работу. Благодаря этому<br>
+                            многое прояснилось и<br>
+                            теперь стало понятно, что<br>
+                            надо делать дальше, что<br>
+                            исправлять и что развивать</p>
+                        <p>Григорий, <a href="">большаясемья.рф</a></p>
+                    </div>
+                    <div class="reviews_swiper_card">
+                        <div class="card_stars">
+                            <a href="" class="link_stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="reviews_swiper_card_text">Спасибо за проделанную<br>
+                            работу. Благодаря этому<br>
+                            многое прояснилось и<br>
+                            теперь стало понятно, что<br>
+                            надо делать дальше, что<br>
+                            исправлять и что развивать</p>
+                        <p>Григорий, <a href="">большаясемья.рф</a></p>
+                    </div>
+                    <div class="reviews_swiper_card">
+                        <div class="card_stars">
+                            <a href="" class="link_stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="reviews_swiper_card_text">Спасибо за проделанную<br>
+                            работу. Благодаря этому<br>
+                            многое прояснилось и<br>
+                            теперь стало понятно, что<br>
+                            надо делать дальше, что<br>
+                            исправлять и что развивать</p>
+                        <p>Григорий, <a href="">большаясемья.рф</a></p>
+                    </div>
+                    <div class="reviews_swiper_card">
+                        <div class="card_stars">
+                            <a href="" class="link_stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="reviews_swiper_card_text">Спасибо за проделанную<br>
+                            работу. Благодаря этому<br>
+                            многое прояснилось и<br>
+                            теперь стало понятно, что<br>
+                            надо делать дальше, что<br>
+                            исправлять и что развивать</p>
+                        <p>Григорий, <a href="">большаясемья.рф</a></p>
+                    </div>
+                    <div class="reviews_swiper_card">
+                        <div class="card_stars">
+                            <a href="" class="link_stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="reviews_swiper_card_text">Спасибо за проделанную<br>
+                            работу. Благодаря этому<br>
+                            многое прояснилось и<br>
+                            теперь стало понятно, что<br>
+                            надо делать дальше, что<br>
+                            исправлять и что развивать</p>
+                        <p>Григорий, <a href="">большаясемья.рф</a></p>
+                    </div>
+                    <div class="reviews_swiper_card">
+                        <div class="card_stars">
+                            <a href="" class="link_stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="reviews_swiper_card_text">Спасибо за проделанную<br>
+                            работу. Благодаря этому<br>
+                            многое прояснилось и<br>
+                            теперь стало понятно, что<br>
+                            надо делать дальше, что<br>
+                            исправлять и что развивать</p>
+                        <p>Григорий, <a href="">большаясемья.рф</a></p>
+                    </div>
+                </div>
+            </div>
+            <a class="reviews_left controls">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                </svg>
+            </a>
+            <a class="reviews_right controls">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg>
+            </a>
+            <div class="indicatior_revies_cards">
+                <div class="indicatior_cards"></div>
+                <div class="indicatior_cards"></div>
+                <div class="indicatior_cards"></div>
+                <div class="indicatior_cards"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews_videos">
+        <div class="container">
+            <div class="reviews_title">
+                <h2>Видео-отзывы</h2>
+            </div>
+
+            <div class="reviews_videos_swipe">
+                <div class="revievs_videos_swiper">
+                    <div class="swiper_video">
+                        1 video
+                    </div>
+                    <div class="swiper_video">
+                        2 video
+                    </div>
+                    <div class="swiper_video">
+                        3 video
+                    </div>
+                </div>
+            </div>
+            <a class="reviews_left controls">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                </svg>
+            </a>
+            <a class="reviews_right controls">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+
+
+    <section class="conference">
+        <div class="container">
+            <div class="">
+                <h2>Наши эксперты выступают на конференциях</h2>
+            </div>
+            <div class="conference_cards">
+                <div class="conference_card metaconf">
+                    <p>MARKENING METACONF 2022</p>
+                    <a href="">ПОДРОБНЕЕ <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg></span></a>
+                </div>
+                <div class="conference_card analystics">
+                    <p>BRAND ANALYTICS 2022</p>
+                    <a href="">ПОДРОБНЕЕ <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg></span></a>
+                </div>
+                <div class="conference_card neuroconf">
+                    <p>MARKETING NEUROCONF 2023</p>
+                    <a href="">ПОДРОБНЕЕ <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg></span></a>
+                </div>
+                <div class="conference_card expo">
+                    <p>ECOM EXPO 2023</p>
+                    <a href="">ПОДРОБНЕЕ <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg></span></a>
+                </div>
+                <div class="conference_card techweek">
+                    <p>TECHWEEK 2023</p>
+                    <a href="">ПОДРОБНЕЕ <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="should_choose">
+        <div class="container">
+            <div class="should_choose_con_title">
+                <h2 class="should_choose_title">
+                    Почему стоит выбрать нас?
+                </h2>
+            </div>
+            <div class="should_choose_cards">
+                <div class="should_choose_card">
+                    <div class="should_choose_card_num">
+                        <h2>1</h2>
+                    </div>
+                    <h3>Если надо больше клиентов</h3>
+                    <p>Приятно, граждане, наблюдать,<br>
+                        как элементы политического<br>
+                        процесса обнародованы</p>
+                </div>
+                <div class="should_choose_card">
+                    <div class="should_choose_card_num">
+                        <h2>2</h2>
+                    </div>
+                    <h3>Если надо больше клиентов</h3>
+                    <p>Приятно, граждане, наблюдать,<br>
+                        как элементы политического<br>
+                        процесса обнародованы</p>
+                </div>
+                <div class="should_choose_card">
+                    <div class="should_choose_card_num">
+                        <h2>3</h2>
+                    </div>
+                    <h3>Если надо больше клиентов</h3>
+                    <p>Приятно, граждане, наблюдать,<br>
+                        как элементы политического<br>
+                        процесса обнародованы</p>
+                </div>
+                <div class="should_choose_card">
+                    <div class="should_choose_card_num">
+                        <h2>4</h2>
+                    </div>
+                    <h3>Если надо больше клиентов</h3>
+                    <p>Приятно, граждане, наблюдать,<br>
+                        как элементы политического<br>
+                        процесса обнародованы</p>
+                </div>
+                <div class="should_choose_card">
+                    <div class="should_choose_card_num">
+                        <h2>5</h2>
+                    </div>
+                    <h3>Если надо больше клиентов</h3>
+                    <p>Приятно, граждане, наблюдать,<br>
+                        как элементы политического<br>
+                        процесса обнародованы</p>
+                </div>
+                <div class="should_choose_card">
+                    <div class="should_choose_card_num">
+                        <h2>6</h2>
+                    </div>
+                    <h3>Если надо больше клиентов</h3>
+                    <p>Приятно, граждане, наблюдать,<br>
+                        как элементы политического<br>
+                        процесса обнародованы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer_header">
+            <h3 class="footer_header_title">
+                <span class="letter_red">RE</span>vo <span class="letter_red">M</span>arketing
+            </h3>
+            <a href="" class="link_map">Карта сайта</a>
+            <a href="" class="footer_num white_color">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill red_color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                </svg><span class="">+7 (499) 955-57-18</span></a>
+        </div>
+        <div class="footer_body">
+            <div class="footer_body_con">
+                <h3>Услуги и цены</h3>
+                <ul class="footer_body_con_list">
+                    <li>Продвижение сайтов</li>
+                    <li>Контекстная реклама</li>
+                    <li>Продвижение в социальных сетях</li>
+                    <li>SERM (управление репутацией)</li>
+                    <li>Техническая поддержка сайтов</li>
+                    <li>Комплексное продвижение</li>
+                    <li>Таргетированная реклама</li>
+                    <li>Продвижение за лиды</li>
+                </ul>
+            </div>
+            <div class="footer_body_con">
+                <h3>Другие услуги</h3>
+                <ul class="footer_body_con_list">
+                    <li>Юзабилити</li>
+                    <li>Создание сайтов</li>
+                    <li>Медийная реклама</li>
+                    <li>SEO-аудит сайта</li>
+                    <li>Продвижение по трафику</li>
+                    <li>Маркетолог по аутсорсе</li>
+                </ul>
+            </div>
+            <div class="footer_body_con">
+                <h3>О компании</h3>
+                <ul class="footer_body_con_list">
+                    <li>Клиенты и отзывы</li>
+                    <li>Контакты</li>
+                    <li>Работа в Demis Group</li>
+                    <li>Личный кабинет</li>
+                    <li>Статьи</li>
+                    <li>Публичная оферта</li>
+                    <li>Партнерская программа</li>
+                    <li>Гарантии</li>
+                </ul>
+            </div>
+            <div class="footer_body_con">
+                <h3>Полезные советы</h3>
+                <ul class="footer_body_con_list">
+                    <li>Оптимизация сайта</li>
+                    <li>Продвижение интернет-магазина</li>
+                    <li>Продвижение групп ВКонтакте</li>
+                    <li>Продвижение видео</li>
+                    <li>Продвижение сайтов в Яндексе</li>
+                    <li>Юзабилити сайта</li>
+                    <li>Стоимость продвижения сайтов</li>
+                    <li>Системы web-аналитики</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_footer">
+            <div class="footer_footer_con">
+                <a href="" class="footer_con_link">@ 2004-2024 <span class="letter_red">RE</span>vo <span class="letter_red">M</span>arketing</a>
+                <a href="" class="footer_con_link">Пользовательское соглашение</a>
+                <a href="" class="footer_con_link">Политика конфиденциальности</a>
+                <div class="footer_footer_socials">
+                    <p href="" class="text_icon">Присоединяйтесь к нам:</p> 
+                    <a href="" class="footer_form_icon"><img src="css/proposal/img/phone.svg" alt=""></a>
+                    <a href="" class="footer_form_icon"><img src="css/proposal/img/Email.svg" alt=""></a>
+                    <a href="" class="footer_form_icon"><img src="css/proposal/img/Telegram.svg" alt=""></a>
+                    <a href="" class="footer_form_icon"><img src="css/proposal/img/WhatsApp.svg" alt=""></a>    
+                </div>
+
+            </div>
+            <div class=""class>
+                <p>Утверждение <Digital-агенство № 1 в России> основано на занимаемой первой позиции в  рейтинге digital-агентства от портала sisipisi.ru </p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="js.js"></script>
+    <script src="jquery-3.7.1.js"></script>
 </body>
 </html>

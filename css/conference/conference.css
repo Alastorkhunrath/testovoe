@@ -1,0 +1,46 @@
+.conference{
+    padding: 50px 0 50px 0;
+}
+
+
+
+
+.conference_cards{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 235px);
+    gap: 30px;
+    grid-template-areas:'metaconf analystics neuroconf neuroconf'
+                        'expo techweek neuroconf neuroconf';
+}
+
+
+.metaconf{
+    grid-area: metaconf;
+}
+
+.analystics{
+    grid-area: analystics;
+}
+
+.neuroconf{
+    grid-area: neuroconf;
+}
+
+.expo{
+    grid-area: expo;
+}
+
+.techweek{
+    grid-area: techweek;
+}
+
+.conference_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: var(--bg-color1);
+    padding: 22px;
+}

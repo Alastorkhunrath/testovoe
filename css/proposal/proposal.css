@@ -1,0 +1,66 @@
+.proposal{
+    width: 100%;
+    background: var(--bg-color2);
+    position: relative;
+    padding: 80px 0;
+}
+
+.form_title{
+    color: var(--text-color1);
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form_text{
+    display: inline;
+    margin-right: 15px;
+    color: var(--text-color1);
+    font-weight: 300;
+}
+.form_text_icon{
+    margin-bottom: 60px;
+}
+.form_icon{
+    margin-right: 7px;
+}
+
+.form_bg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    /* display: none; */
+}
+.form_input{
+    width: 240px ;
+    padding: 22px 0 22px 30px;
+    margin-right: 15px;
+    outline: none;
+}
+.form_inputes{
+    margin-bottom: 35px;
+}
+.input_propsal{
+    background: var(--bg-color-4);
+    color: var(--text-color1);
+    border: 2px solid var(--bg-color-4);
+    margin-right: 25px;
+    padding: 20px 30px;
+}
+.form_btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.condiditional{
+    font-weight: 300;
+ color: var(--text-color1);
+ text-decoration: none;
+ width: 400px;
+}
+
+.red_condiditional{
+    color: var(--text-color2);
+    text-decoration: dashed;
+}

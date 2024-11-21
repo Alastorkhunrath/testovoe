@@ -1,0 +1,19 @@
+:root{
+
+    /* bg */
+    --bg-color1:rgba(243, 243, 243, 1);
+    --bg-color2: rgba(33, 33, 33, 1);
+    --bg-color3:rgba(255, 255, 255, 1);
+    --bg-color-4:rgba(249, 63, 63, 1);
+    --bg-color-5: rgba(218, 218, 218, 1);
+    --bg-color-6: rgba(175, 175, 175, 1);
+    
+
+
+    /* text */
+    --text-color1:rgba(255, 255, 255, 1);
+    --text-color2:rgba(249, 63, 63, 1);
+    --text-color3:rgba(33, 33, 33, 1);
+    --text-color4: rgba(206, 206, 206, 1);
+    --text-color5:rgba(158, 158, 158, 1);
+}

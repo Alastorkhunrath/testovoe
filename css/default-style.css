@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Atyp-Display';
+    src: url(../font/Atyp/AtypDisplay-Bold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Atyp-Display';
+    src: url(../font/Atyp/AtypDisplay-Light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Atyp-Display';
+    src: url(../font/Atyp/AtypDisplay-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Atyp-Display';
+    src: url(../font/Atyp/AtypDisplay-Medium.ttf);
+    font-weight: 500;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Atyp-Display';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+h1,h2{
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+p,label,a{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 100;
+}
+
+.header_bg{
+    position: absolute;
+
+}
+.white_color{
+    color:var(--text-color1);
+}
+
+.gray_color{
+    color: var(--text-color4);
+}
+
+@media screen and (max-width:450px) {
+    html{
+        font-size: 15px;
+    }
+    h1,h2{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    p, label, a{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+

@@ -1,0 +1,83 @@
+.take_a_seat{
+    width: 100%;
+    background: var(--bg-color3);
+    padding: 100px 0;
+    height: calc(100vh - 150px);
+}
+
+.company_icons{
+    display: block;
+    height: 55px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.container_icon{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    animation: slide_left 10s linear 0s infinite;
+}
+
+
+
+@keyframes slide_left{
+    0%{ 
+        left: 0;
+
+    }
+    100%{
+        left: -102%;
+    }
+}
+
+.icon{
+    margin: 0 20px;
+}
+
+.container_bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.chair{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+
+.container_bg_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+
+    background: var(--bg-color3);
+    color: var(--text-color2);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.container_bg_btn:hover{
+    color: var(--text-color1);
+    background: var(--bg-color-4);
+}
+
+.red_oval{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    background: var(--bg-color-4);
+    width: 850px;
+    height: 360px;
+    border-radius: 50%;
+}

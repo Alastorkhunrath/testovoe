@@ -1,0 +1,27 @@
+
+.reviews_videos{
+    padding: 100px 0 50px 0;
+}
+
+
+.reviews_videos_swipe{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.revievs_videos_swiper{
+    width: 300%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.swiper_video{
+    width: 100%;
+    height: 500px;
+    background: var(--bg-color1);
+}
